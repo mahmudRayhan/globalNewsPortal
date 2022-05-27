@@ -1,20 +1,18 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "CSE 408 Project",
   "main": "index.js",
   "engines": {
     "node": "16.14.2"
   },
-  
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
     "dev": "nodemon server.js"
   },
-  "author": "",
+  "author": "Mahmud Rayhan",
   "license": "ISC",
   "dependencies": {
     "@hapi/joi": "^17.1.1",
@@ -30,5 +28,6 @@
     "multer": "^1.4.2",
     "nodemon": "^2.0.7",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {}
 }
