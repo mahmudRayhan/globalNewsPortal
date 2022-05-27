@@ -1,0 +1,23 @@
+.newsEditor {
+    min-height: 900px;
+    width: 900px;
+    margin-top: 20px;
+}
+
+.submitButton {
+    align-self: center;
+    margin-top: 30px;
+}
+
+.textfont {
+    font-size: 20px;
+}
+
+.modalwidth {
+    min-width: 135vmin;
+}
+
+.wordwrap {
+    display: inline-block;
+    word-wrap: break-word;
+}

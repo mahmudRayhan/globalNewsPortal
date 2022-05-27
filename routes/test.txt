@@ -1,0 +1,38 @@
+Newscatcher:
+
+{
+      summary: "A British fraudster who stole millions of euros of taxpayers' money had links to a network based in 
+north west England suspected of large scale criminal activity for more than two decades. Leaked documents reveal Imran Yakub Ahmed, 45, from Preston, who now lives a life of luxury in Dubai, was under investigation by the UK authorities as early as 1998 over concerns about his links with members of the suspected network. A decade later he would go on to be involved in what has been described as 'the fraud of the century'.",
+      country: 'US',
+      author: 'Madlen Davies',
+      link: 'https://www.thebureauinvestigates.com/stories/2019-06-09/from-preston-to-dubai-the-vat-fraud-trail',   
+      language: 'en',
+      media: 'https://d3cocnzdt9u6c9.cloudfront.net/eyJidWNrZXQiOiJhc3NldHMyLnRoZWJ1cmVhdWludmVzdGlnYXRlcy5jb20iLCJrZXkiOiJ1cGxvYWRzL0Y1OFc2MS5qcGciLCJlZGl0cyI6eyJqcGVnIjp7InF1YWxpdHkiOjEwMCwicHJvZ3Jlc3NpdmUiOmZhbHNlLCJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXplU2NhbnMiOnRydWV9LCJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6NjMwLCJmaXQiOiJjb3ZlciJ9fX0=',
+      title: 'From the UK to Dubai: On the trail of the "fraud of the century"',
+      media_content: null,
+      clean_url: 'thebureauinvestigates.com',
+      rights: 'thebureauinvestigates.com',
+      rank: '13780',
+      topic: 'news',
+      published_date: '2021-07-29 07:00:00',
+      _id: 'a1c885b588f35c2b11471ceb1b1663a9'
+    }
+
+    NewsLit:
+    {
+      summary: "A British fraudster who stole millions of euros of taxpayers' money had links to a network based in 
+north west England suspected of large scale criminal activity for more than two decades. Leaked documents reveal Imran Yakub Ahmed, 45, from Preston, who now lives a life of luxury in Dubai, was under investigation by the UK authorities as early as 1998 over concerns about his links with members of the suspected network. A decade later he would go on to be involved in what has been described as 'the fraud of the century'.",
+      country: 'US',
+      author: 'Madlen Davies',
+      link: 'https://www.thebureauinvestigates.com/stories/2019-06-09/from-preston-to-dubai-the-vat-fraud-trail',   
+      language: 'en',
+      media: 'https://d3cocnzdt9u6c9.cloudfront.net/eyJidWNrZXQiOiJhc3NldHMyLnRoZWJ1cmVhdWludmVzdGlnYXRlcy5jb20iLCJrZXkiOiJ1cGxvYWRzL0Y1OFc2MS5qcGciLCJlZGl0cyI6eyJqcGVnIjp7InF1YWxpdHkiOjEwMCwicHJvZ3Jlc3NpdmUiOmZhbHNlLCJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXplU2NhbnMiOnRydWV9LCJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6NjMwLCJmaXQiOiJjb3ZlciJ9fX0=',
+      title: 'From the UK to Dubai: On the trail of the "fraud of the century"',
+      media_content: null,
+      clean_url: 'thebureauinvestigates.com',
+      rights: 'thebureauinvestigates.com',
+      rank: '13780',
+      topic: 'news',
+      published_date: '2021-07-29 07:00:00',
+      _id: 'a1c885b588f35c2b11471ceb1b1663a9'
+    }

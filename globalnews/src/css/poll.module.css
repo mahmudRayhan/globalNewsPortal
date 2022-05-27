@@ -1,0 +1,13 @@
+.Spinner{
+    position: relative;
+    left: 0;
+    top: 30%;
+    z-index: 150;
+}
+.pollResult{
+    font-style: italic;
+    font-weight: 600;
+    color: honeydew;
+    text-align: left;
+    margin-left: 10%;
+}

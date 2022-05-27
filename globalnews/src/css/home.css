@@ -1,0 +1,154 @@
+
+
+#toggler {
+  position: absolute;
+  z-index: 1;
+
+}
+
+.mediabody {
+  text-align: left;
+}
+
+
+
+#idmediabody {
+  text-align: left;
+}
+
+
+
+.rmediabody {
+  text-align: right;
+}
+
+.topmedia {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding:0px 0px 0px 0px;
+}
+
+.cardimg {
+  height: 250px;
+}
+
+
+
+
+
+.stitle {
+	font-size: 90%;
+	font-family: Impact, fantasy;
+	color:whitesmoke;
+	font-size: 18px;
+
+}
+
+
+#smalltitle {
+	font-size: 90%;
+	font-family: Impact, fantasy;
+	font-size: 18px;
+	color:black;
+}
+
+#sidemedia {
+	margin-bottom: 20px;
+}
+
+
+
+.media-heading {
+	font-family: Impact, fantasy;
+	font-size: 25px;
+	color:black;
+}
+
+#cimg {
+	height:500px;
+}
+
+#jumboheight {
+	height:550px;
+	/* background-image: url('newsbig.jpg');  */
+	background-size: cover; 
+	background-repeat: no-repeat; 
+}
+.wordwrap {
+    display: inline-block;
+    word-wrap: break-word;
+}
+
+#title1 {
+	display: inline-block;
+	width:70%;
+	color:white;
+	text-align: left;
+	padding:300px 0px 0px 0px;
+	font-family:  Garamond;
+    font-weight: 700;
+    margin-bottom: 15px;
+	font-size: 40px;
+	padding-left:100px;
+}
+
+#title2 {
+	color:white;
+	text-align: left;
+	color: gray ;
+	font-size: 20px;
+	padding-left: 85px;
+}
+
+#pbottom {
+	padding-bottom:20px;
+}
+
+
+
+
+
+button.dotMenu{
+	background-color: transparent;
+	border-color: transparent;
+	display: inline-block;
+	margin-top: -20px;
+}
+
+.projectdTitle{
+	display: inline-block;
+	font-family: Garamond;
+	font-size: 50px;
+	color:thistle;
+	margin-top:10px;
+	margin-left: -40px;
+}
+
+
+.nav-link{
+	font-family: Jazz LET, fantasy;
+	font-size: 25px;
+	display: inline-block;
+	
+}
+
+Link {
+	text-decoration: none;
+	
+}
+
+.newdescription{
+	font-size: 18px;
+	font-family: monospace;
+}
+
+address{
+	color: white;
+}
+.Spinner{
+    
+    position: relative;
+    left: 0;
+    top: 30%;
+    z-index: 150;
+}
