@@ -26,6 +26,10 @@ function DisplayNews({news}){
 
 } 
 const RenderNewsSection = ({news})=>{
+	console.log("printing:"+news);
+	if(news == undefined){
+		return <h1>Loading...........</h1>
+	}
 	return(
 		<div>	
 			<Row>

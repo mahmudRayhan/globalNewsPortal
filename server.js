@@ -62,8 +62,10 @@ if ( process.env.NODE_ENV == "production"){
 app.listen(PORT,()=>{console.log("server is running in 3000")});
 
 console.log('Before job instantiation');
-const job = new CronJob('0 */50 * * * *', function() {
-	ApiNewsModel.deleteMany({}).then(r=>{
+
+//const job = new CronJob('0 */50 * * * *', function() {
+	/*
+    ApiNewsModel.deleteMany({}).then(r=>{
     let url="https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=9132e413457349849b32010e5fa25fd4"
     request.get({url:url},(error,response)=>{
         const data = JSON.parse(response.body)
@@ -115,3 +117,5 @@ const job = new CronJob('0 */50 * * * *', function() {
 })
 console.log('After job instantiation');
 job.start();
+
+*/

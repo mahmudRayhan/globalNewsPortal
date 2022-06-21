@@ -8,9 +8,62 @@ const ObjectID = require('mongodb').ObjectID;
 router.get('/news/:newsid',(req,res)=>{
     //let objectId =  ObjectID(req.params.newsid);
     console.log(req.params.newsid);
+    console.log("while searching for news1");
     let recommendedNews = null;
-    NewsModel.findOneAndUpdate({_id:req.params.newsid},{$inc:{views:1}})
+
+
+/*
+    NewsModel.find({_id:req.params.newsid})
             .then(docs=>{
+                console.log(docs);
+
+            }).catch(err=>{
+                console.log("Not Found 1 !")
+            })
+
+*/
+
+
+       /* NewsModel.find({_id:req.params.newsid})
+        .then(docs=>{
+            console.log("part 1");
+            console.log(docs);
+            
+            
+
+            
+        }).catch(err=>{
+            console.log("Not Found 2!")
+            
+        })
+
+        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    NewsModel.findOne({_id:req.params.newsid})
+            .then(docs=>{
+                console.log(docs);
                 NewsModel.find({
                     $and:[
                         {category:docs.category},
@@ -28,7 +81,9 @@ router.get('/news/:newsid',(req,res)=>{
                                 authorRole:user.userRole,
                                 recommendedNews:recomNews
                                 }
-                            res.send(docs)
+                            console.log(docs);
+                            res.send(docs);
+                            
                         })
 
                     }
@@ -37,6 +92,7 @@ router.get('/news/:newsid',(req,res)=>{
 
                 
             }).catch(err=>{
+                console.log("Not Found!")
                 res.send(err)
             })
  })
@@ -58,6 +114,7 @@ router.get('/news/:newsid',(req,res)=>{
  router.get('/temp/:newsid',(req,res)=>{
     //let objectId =  ObjectID(req.params.newsid);
     console.log(req.params.newsid);
+    console.log("while searching for news2");
     
     TempNewsModel.findOne({_id:req.params.newsid})
             .then(docs=>{
@@ -71,6 +128,7 @@ router.get('/news/:newsid',(req,res)=>{
                             authorDesk:user.userDesk,
                             authorRole:user.userRole
                             }
+                            console.log(docs);
                         res.send(docs)
                     })
                 
